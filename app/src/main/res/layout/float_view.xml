@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80dp"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    >
+    <Button
+        android:id="@+id/returnBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:scaleType="center"
+        android:text="返回"
+        android:clickable="true"
+        />
+</LinearLayout>

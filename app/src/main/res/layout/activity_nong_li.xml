@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nongli.NongLiActivity"
+    android:orientation="vertical"
+    >
+    <com.common.base.CommonTitleView
+        android:id="@+id/commonTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <com.common.base.CustomFontTextView
+        android:id="@+id/infoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/sfs_c5"
+        android:textSize="@dimen/sfs_s4"
+        />
+
+
+    <com.common.base.CustomFontTextView
+        android:id="@+id/wetherTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/sfs_c5"
+        android:textSize="@dimen/sfs_s4"
+        />
+</LinearLayout>
